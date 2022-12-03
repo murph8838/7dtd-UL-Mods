@@ -1,0 +1,25 @@
+<Cheezy>
+    <!-- Drastically reduce fog -->
+    <set xpath="/worldgeneration/biomes/biome[@name='snow']/weather[@name='fog']/Fog/@min">1</set>
+    <set xpath="/worldgeneration/biomes/biome[@name='snow']/weather[@name='fog']/Fog/@max">2</set>
+    <set xpath="/worldgeneration/biomes/biome[@name='snow']/weather[@name='snow']/Fog/@min">0</set>
+    <set xpath="/worldgeneration/biomes/biome[@name='snow']/weather[@name='snow']/Fog/@max">2</set>
+    <set xpath="/worldgeneration/biomes/biome[@name='snow']/weather[@name='storm']/Fog/@min">1</set>
+    <set xpath="/worldgeneration/biomes/biome[@name='snow']/weather[@name='storm']/Fog/@max">2</set>
+    <set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/weather[@name='fog']/Fog/@min">1</set>
+    <set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/weather[@name='fog']/Fog/@max">2</set>
+    <set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/weather[@name='rain']/Fog/@min">0</set>
+    <set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/weather[@name='rain']/Fog/@max">1</set>
+    <set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/weather[@name='storm']/Fog/@min">1</set>
+    <set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/weather[@name='storm']/Fog/@max">2</set>
+    <set xpath="/worldgeneration/biomes/biome[@name='desert']/weather[@name='rain']/Fog/@min">0</set>
+    <set xpath="/worldgeneration/biomes/biome[@name='desert']/weather[@name='rain']/Fog/@max">1</set>
+    <set xpath="/worldgeneration/biomes/biome[@name='desert']/weather[@name='storm']/Fog/@min">1</set>
+    <set xpath="/worldgeneration/biomes/biome[@name='desert']/weather[@name='storm']/Fog/@max">2</set>
+    <set xpath="/worldgeneration/biomes/biome[@name='wasteland']/weather[@name='default']/Fog/@min">0</set>
+    <set xpath="/worldgeneration/biomes/biome[@name='wasteland']/weather[@name='default']/Fog/@max">1</set>
+    <set xpath="/worldgeneration/biomes/biome[@name='wasteland']/weather[@name='rain']/Fog/@min">0</set>
+    <set xpath="/worldgeneration/biomes/biome[@name='wasteland']/weather[@name='rain']/Fog/@max">1</set>
+    <set xpath="/worldgeneration/biomes/biome[@name='wasteland']/weather[@name='storm']/Fog/@min">1</set>
+    <set xpath="/worldgeneration/biomes/biome[@name='wasteland']/weather[@name='storm']/Fog/@max">2</set>
+</Cheezy>

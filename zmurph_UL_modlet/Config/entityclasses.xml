@@ -1,0 +1,4 @@
+<Cheezy>
+    <set xpath="/entity_classes/entity_class[@name='zombieDemolition']/property[@name='ExperienceGain']/@value">2000</set><!--750-->
+    <set xpath="/entity_classes/entity_class[@name='zombieDemolition']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='base_set']/@value">1500</set><!-- 2000 in base UL -->
+</Cheezy>

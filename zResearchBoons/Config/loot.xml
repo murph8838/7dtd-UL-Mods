@@ -1,0 +1,24 @@
+<Cheezy>
+    <!-- Research in air drops -->
+    </append> -->
+    <append xpath="/lootcontainers/lootgroup[@name='groupAirDrop']">  
+        <item name='ulmResourceResearch' count='50,250'/>
+    </append>
+
+    <!-- Research in POI loot -->
+    <append xpath="/lootcontainers/lootgroup[@name='groupReinforcedChestT1']">
+        <item name='ulmResourceResearch' count='50'/>
+    </append>
+    <append xpath="/lootcontainers/lootgroup[@name='groupReinforcedChestT2']">
+        <item name='ulmResourceResearch' count='150'/>
+    </append>
+    <append xpath="/lootcontainers/lootgroup[@name='groupReinforcedChestT3']">
+        <item name='ulmResourceResearch' count='250'/>
+    </append>
+    <append xpath="/lootcontainers/lootgroup[@name='groupHardenedChestT4']">
+        <item name='ulmResourceResearch' count='500'/>
+    </append>
+    <append xpath="/lootcontainers/lootgroup[@name='groupHardenedChestT5']">
+        <item name='ulmResourceResearch' count='1000'/>
+    </append>
+</Cheezy>

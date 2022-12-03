@@ -1,0 +1,6 @@
+<Cheezy>
+    <!-- attempt to cuztomize fetch satchel to provide usable resources -->
+    <!-- <append xpath="/blockplaceholders/placeholder[@name='cntQuestRandomLootHelper']">
+		<block name="cntInvestigateQuestSatchel" prob="1" questtag="fetch"/>
+    </append> -->
+</Cheezy>

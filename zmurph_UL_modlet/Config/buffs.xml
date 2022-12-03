@@ -1,0 +1,15 @@
+<Cheezy>
+	
+	<set xpath="/buffs/buff[@name='actionPerkLockPickingSuccess']/effect_group[@name='Gain EXP']">
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkLockPicking" attribute="attIntellect" add_xp="40"/>
+	</set>
+		
+	<set xpath="/buffs/buff[@name='actionPerkLockPickingFail']/effect_group[@name='Gain EXP']">
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkLockPicking" attribute="attIntellect" add_xp="10"/>
+	</set>
+		
+	<set xpath="/buffs/buff[@name='actionPerkLockPickingAutoFail']/effect_group[@name='Gain EXP']">
+		<triggered_effect trigger="onSelfBuffStart" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkLockPicking" attribute="attIntellect" add_xp="5"/>
+	</set>
+		
+</Cheezy>

@@ -1,0 +1,19 @@
+<Cheezy>
+    <!-- Attempt at investigateLead quest -->
+    <!-- <append xpath="/blocks">
+        <block name="cntInvestigateQuestSatchel">
+            <property name="Extends" value="cntBackpack01"/>
+            <property name="CreativeMode" value="Dev"/>
+            <property name="Class" value="QuestLoot"/>
+            <property name="CustomIconTint" value="80ff80"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#Entities/LootContainers?loot_satchelPrefab.prefab"/>
+            <property name="Place" value="TowardsPlacerInverted"/>
+            <property name="MaxDamage" value="500"/>
+            <property name="LootList" value="questSatchel_investigate"/>
+            <property name="IndexName" value="FetchContainer"/>
+            <property name="StabilityIgnore" value="true"/>
+        </block>
+    </append> -->
+    <set xpath="/blocks/block[@name='ulmCollectorOreActive']/property[@name='RespawnToBlock']/@param1">31</set>
+</Cheezy>

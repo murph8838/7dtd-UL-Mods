@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="ResearchBoons"/>
+		<Description value="Find UL research data in Air Drops and POI loot."/>
+		<Author value="Cheezy"/>
+		<Version value="1"/>
+	</ModInfo>
+</xml>

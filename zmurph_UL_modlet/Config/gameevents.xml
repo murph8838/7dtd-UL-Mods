@@ -1,0 +1,11 @@
+<Cheezy>
+    <!-- Attempt at Investigate Lead Quest -->
+    <!-- <append xpath="/gameevents">
+    	<action_sequence name="createInvestigateBundle">
+            <action class="AddItems">
+                <property name="added_items" value="questInvestigateBundle" />
+                <property name="added_item_counts" value="1" />
+            </action>
+        </action_sequence>
+    </append> -->
+</Cheezy>

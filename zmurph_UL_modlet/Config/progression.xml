@@ -1,0 +1,42 @@
+<Cheezy>
+
+	<set xpath="/progression/perks/perk[@name='actionPerkAxes']/effect_group[@name='Level Up']">
+		<requirement name="ItemHasTags" tags="toolAxe"/>
+		<triggered_effect trigger="onSelfKilledOther" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkAxes" attribute="attStrength" add_xp="8"/>
+		<triggered_effect trigger="onSelfDamagedOther" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkAxes" attribute="attStrength" add_xp="21">
+			<requirement name="IsAlive" target="other"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfDestroyedBlock" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkAxes" attribute="attStrength" add_xp="4"/>
+		<triggered_effect trigger="onSelfDamagedBlock" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkAxes" attribute="attStrength" add_xp="2"/>
+	</set>
+
+	<set xpath="/progression/perks/perk[@name='actionPerkShovels']/effect_group[@name='Level Up']">
+		<requirement name="ItemHasTags" tags="toolShovel"/>
+		<triggered_effect trigger="onSelfDestroyedBlock" cvar=".actionPerkShovelsExp" action="ModifyCVar" operation="set" value="8"/>
+		<triggered_effect trigger="onSelfDestroyedBlock" cvar=".actionPerkShovelsExp" action="ModifyCVar" operation="multiply" value="@.toolShovelMultiplier"/>
+		<triggered_effect trigger="onSelfDestroyedBlock" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkShovels" attribute="attStrength" add_xp="@.actionPerkShovelsExp"/>
+		<triggered_effect trigger="onSelfDamagedBlock" cvar=".actionPerkShovelsExp" action="ModifyCVar" operation="set" value="4"/>
+		<triggered_effect trigger="onSelfDamagedBlock" cvar=".actionPerkShovelsExp" action="ModifyCVar" operation="multiply" value="@.toolShovelMultiplier"/>
+		<triggered_effect trigger="onSelfDamagedBlock" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkShovels" attribute="attStrength" add_xp="@.actionPerkShovelsExp"/>
+	</set>
+
+	<set xpath="/progression/perks/perk[@name='actionPerkMining']/effect_group[@name='Level Up']">
+		<requirement name="ItemHasTags" tags="toolMining"/>
+		<triggered_effect trigger="onSelfDestroyedBlock" cvar=".actionPerkMiningExp" action="ModifyCVar" operation="set" value="8"/>
+		<triggered_effect trigger="onSelfDestroyedBlock" cvar=".actionPerkMiningExp" action="ModifyCVar" operation="multiply" value="@.toolMiningMultiplier"/>
+		<triggered_effect trigger="onSelfDestroyedBlock" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkMining" attribute="attStrength" add_xp="@.actionPerkMiningExp"/>
+		<triggered_effect trigger="onSelfDamagedBlock" cvar=".actionPerkMiningExp" action="ModifyCVar" operation="set" value="4"/>
+		<triggered_effect trigger="onSelfDamagedBlock" cvar=".actionPerkMiningExp" action="ModifyCVar" operation="multiply" value="@.toolMiningMultiplier"/>
+		<triggered_effect trigger="onSelfDamagedBlock" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkMining" attribute="attStrength" add_xp="@.actionPerkMiningExp"/>
+	</set>
+
+	<set xpath="/progression/perks/perk[@name='actionPerkSalvaging']/effect_group[@name='Level Up']">
+		<requirement name="ItemHasTags" tags="perkSalvageOperations"/>
+		<triggered_effect trigger="onSelfKilledOther" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkSalvaging" attribute="attIntellect" add_xp="10"/>
+		<triggered_effect trigger="onSelfDamagedOther" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkSalvaging" attribute="attIntellect" add_xp="2">
+			<requirement name="IsAlive" target="other"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfHarvestBlock" action="ULM_SkillUp,UndeadLegacy" skill="actionPerkSalvaging" attribute="attIntellect" add_xp="3"/>
+	</set>
+	
+</Cheezy>

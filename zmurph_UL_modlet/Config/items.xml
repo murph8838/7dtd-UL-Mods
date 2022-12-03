@@ -1,0 +1,32 @@
+<Cheezy>
+	<set xpath="/items/item[@name='ulmResourceLumber']/property[@name='CarryWeight']/@value">0.5</set>
+	<set xpath="/items/item[@name='ulmResourceOreIron']/property[@name='CarryWeight']/@value">0.17</set>
+	<set xpath="/items/item[@name='ulmResourceOreLead']/property[@name='CarryWeight']/@value">0.25</set>
+	<set xpath="/items/item[@name='ulmResourceOreTitanium']/property[@name='CarryWeight']/@value">0.1</set>
+	<set xpath="/items/item[@name='foodRawMeat']/property[@name='CarryWeight']/@value">0.1</set>
+	<!-- This can be used to create a pack that opens to dump items, but can't dump from loot list -->
+	<!-- Attempt at Investigate Lead quest -->
+	<!-- <append xpath="/items">
+		<item name="questInvestigateBundle">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="cntShippingCrateHero"/>
+			<property name="ItemTypeIcon" value="computer"/>
+			<property name="CustomIconTint" value="210,0,210"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mwood"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="Weight" value="0"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Group" value="Special Items"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Create_item" value="gunHandgunPistolAdmin,gunToolDiggerAdmin,drinkJarFullRespecAdmin,drugRedPillAdmin,meleeToolPaintToolAdmin,meleeToolSalvageWrenchAdmin,pimpMiningHelmetAdmin,ringOfFireAdmin,armorPlotAdmin,meleeToolHammerOfGodAdmin,coolLootShadesAdmin,coolLootShadesAdmin200,toughGuyShirtAdmin,rocketBootsAdmin,noteTestersElectricityAdmin,qtest_nextTraderAdmin,resourceYuccaFibers,resourceWood,resourceRockSmall,resourceFeather"/>
+				<property name="Create_item_count" value="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,50,100,100,100,100"/>
+			</property>
+		</item>
+	</append> -->
+</Cheezy>

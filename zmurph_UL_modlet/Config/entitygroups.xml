@@ -1,0 +1,13 @@
+<Cheezy>
+    <append xpath="/entitygroups/entitygroup[@name='ZombiesForestDowntown']">
+        <entity name="zombieDemolition" prob=".05"/>
+    </append>
+    <append xpath="/entitygroups/entitygroup[@name='ZombiesForestDowntownNight']">
+        <entity name="zombieDemolition" prob=".1"/>
+    </append>
+    <set xpath="/entitygroups/entitygroup[@name='ZombiesDowntown']/entity[@name='zombieDemolition']/@prob">.1</set>
+    <set xpath="/entitygroups/entitygroup[@name='ZombiesWastelandDowntown']/entity[@name='zombieDemolition']/@prob">.3</set>
+    <append xpath="/entitygroups/entitygroup[@name='ZombiesHoard']">
+        <entity name="zombieDemolition" prob=".05"/>
+    </append>
+</Cheezy>

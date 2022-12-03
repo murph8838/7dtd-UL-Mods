@@ -1,0 +1,45 @@
+<Cheezy>
+    <!-- Attempt at Investigate Lead Quest -->
+    <!-- <append xpath="/lootcontainers">
+        <lootgroup name="chiliDogBundle">
+            <item name="foodChiliDogSchematic"/>
+            <item name="foodCanChili" count="1"/>
+            <item name="foodCornBread" count="1"/>
+            <item name="foodRawMeat" count="5"/>
+        </lootgroup>
+        <lootgroup name="questSatchel_investigate" count="1">
+            <item group="chiliDogBundle"/>
+        </lootgroup>
+        <lootcontainer name="questSatchel_investigate" count="0" size="6,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" loot_quality_template="qualBaseTemplate">
+            <item group="questSatchel_investigate"/>
+        </lootcontainer>
+    </append> -->
+    <set xpath="/lootcontainers/lootgroup[@name='groupOreExtractor']">
+        <item name="ulmResourceOreIron"				count="1,100"/>
+        <item name="ulmResourceOreCopper"			count="1,50"/>
+        <item name="ulmResourceOreZinc"				count="1,50"/>
+        <item name="ulmResourceOreSulfur"			count="1,50"	loot_prob_template="med"/>
+        <item name="ulmResourceOrePotassiumNitrate" count="1,50"	loot_prob_template="med"/>
+        <item name="ulmResourceOreLead"				count="1,100"	loot_prob_template="med"/>
+        <item name="ulmResourceOreTitanium"			count="1,25"	loot_prob_template="low"/>
+        <item name="resourceSilverNugget"			count="1,10"	loot_prob_template="low"/>
+        <item name="resourceGoldNugget"				count="1,10"	loot_prob_template="low"/>
+        <item name="resourceRawDiamond"				count="1,4"		loot_prob_template="low"/>
+    </set>
+    <set xpath="/lootcontainers/lootcontainer[@name='oreExtractor']/@count">3,6</set>
+    <append xpath="/lootcontainers/lootgroup[@name='groupAirDropT1Bundles']"/>  
+        <item name='ulmResourceResearch' count='50'>
+    </append>
+    <append xpath="/lootcontainers/lootgroup[@name='groupAirDropT2Bundles']"/>  
+        <item name='ulmResourceResearch' count='100'>
+    </append>
+    <append xpath="/lootcontainers/lootgroup[@name='groupAirDropT3Bundles']"/>  
+        <item name='ulmResourceResearch' count='150'>
+    </append>
+    <append xpath="/lootcontainers/lootgroup[@name='groupAirDropT4Bundles']"/>  
+        <item name='ulmResourceResearch' count='200'>
+    </append>
+    <append xpath="/lootcontainers/lootgroup[@name='groupAirDropT5Bundles']"/>  
+        <item name='ulmResourceResearch' count='250'>
+    </append>
+</Cheezy>

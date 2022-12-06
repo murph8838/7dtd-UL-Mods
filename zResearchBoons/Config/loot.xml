@@ -1,6 +1,5 @@
 <Cheezy>
     <!-- Research in air drops -->
-    </append> -->
     <append xpath="/lootcontainers/lootgroup[@name='groupAirDrop']">  
         <item name='ulmResourceResearch' count='50,250'/>
     </append>

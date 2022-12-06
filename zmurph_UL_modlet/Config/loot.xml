@@ -26,20 +26,4 @@
         <item name="resourceGoldNugget"				count="1,10"	loot_prob_template="low"/>
         <item name="resourceRawDiamond"				count="1,4"		loot_prob_template="low"/>
     </set>
-    <set xpath="/lootcontainers/lootcontainer[@name='oreExtractor']/@count">3,6</set>
-    <append xpath="/lootcontainers/lootgroup[@name='groupAirDropT1Bundles']"/>  
-        <item name='ulmResourceResearch' count='50'>
-    </append>
-    <append xpath="/lootcontainers/lootgroup[@name='groupAirDropT2Bundles']"/>  
-        <item name='ulmResourceResearch' count='100'>
-    </append>
-    <append xpath="/lootcontainers/lootgroup[@name='groupAirDropT3Bundles']"/>  
-        <item name='ulmResourceResearch' count='150'>
-    </append>
-    <append xpath="/lootcontainers/lootgroup[@name='groupAirDropT4Bundles']"/>  
-        <item name='ulmResourceResearch' count='200'>
-    </append>
-    <append xpath="/lootcontainers/lootgroup[@name='groupAirDropT5Bundles']"/>  
-        <item name='ulmResourceResearch' count='250'>
-    </append>
 </Cheezy>
